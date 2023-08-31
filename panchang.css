@@ -1,0 +1,92 @@
+.block {
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 124, 124);
+}
+
+#heading{
+    background-color: rgb(230, 98, 98);
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0.5px;
+}
+
+#subheading{
+    background-color: rgb(230, 98, 98);
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0.5px;
+}
+
+.trow {
+    display: table-row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+/* .alignL {
+    background-color: aqua;
+} */
+
+.alignR {
+    margin: 1px 1px;
+}
+
+.alignL,
+.alignR {
+    color: white;
+    display: table-cell;
+    padding-right: 25px;
+}
+
+.container{
+    background-color: rgb(230, 98, 98);
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0.5px;
+}
+
+.container2{
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(238, 177, 177); */
+}
+
+.container2 h3{
+    /* background-color: aqua; */
+    font-size: 20px;
+    color: rgb(197, 19, 19);
+}
+
+.container2 p{
+    /* background-color: beige; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: rgb(248, 78, 78);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

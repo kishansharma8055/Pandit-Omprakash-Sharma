@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="index.js"></script>
+
+  <!-- font Awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- JQuery CDN link -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- *********** navbar start  *********** -->
+  <header>
+    <div>
+      <a href="ALogin.html">
+        <img src="./image/logo.jpg" alt="logo image"></a>
+    </div>
+    <nav>
+      <div id="contents" class="content">
+        <ul>
+          <i onclick="closeBtn()" id="menu-close" class="fas fa-times">X</i>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="contact.html">contect us</a></li>
+          <li><a href="login.html" id="login">login</a></li>
+          <li> <a href="signin.html" id="signin">sign in</a></li>
+        </ul>
+        <div id="profile">
+          <a href="ALogin.html">
+            <img src="./image/profile.png" alt="logo image"></a>
+        </div>
+      </div>
+      <button id="menu-btn" onclick="menuBtn()">
+        <div class="container">
+          <div class="box"></div>
+          <div class="box" id="box2"></div>
+          <div class="box" id="box3"></div>
+        </div>
+      </button>
+    </nav>
+    <div class="toggle-btn">
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox" class="toggle-label">
+        <span class="toggle-ball"></span>
+      </label>
+    </div>
+  </header>
+  <!-- ************ navbar end  *********** -->
+
+
+  <!-- Hero section starts from here -->
+  <section id="home">
+    <h2>
+      Enhance Your Future With <br> Sanatan Culture
+    </h2>
+    <!-- <div><span>Time : </span><span id="time"></span> <br> <span>Date : </span><span id="date"></span></div> -->
+    <h2>
+      <!-- Pandit Onprakash Sharam -->
+    </h2>
+    <p>
+      <!-- This website is made by kishan Sharma. For Education -->
+    </p>
+    <div class="btn">
+      <a href="panchang.html" class="blue">Today Panchang</a>
+      <a href="services.html" class="yellow">Services</a>
+    </div>
+  </section>
+  <!-- Hero section ends from here -->
+
+  <!-- Features section starts from here -->
+  <section id="features">
+    <h1>Awesome Features</h1>
+    <p>This is my work frature But you have any other work Please contact Me</p>
+    <p>By the Contact Us section</p>
+
+    <div class="fea-base">
+      <div class="fea-box">
+        <div class="featureImage">
+          <img src="image/Kundli.png" alt="">
+        </div>
+        <div class="fretureData">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Online Kundli View</h3>
+          <p>
+            One make creepeth, man bearing theira firmament won't great heaven
+          </p>
+        </div>
+      </div>
+
+
+      <div class="fea-box">
+        <div class="fretureData">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Mangal Dosha</h3>
+          <p>
+            One make creepeth, man bearing theira firmament won't great heaven
+          </p>
+        </div>
+        <div class="featureImage">
+          <img src="image/Mangal Dosha.png" alt="">
+        </div>
+      </div>
+
+      <div class="fea-box">
+        <div class="featureImage">
+          <img src="image/Kal Sarpa Dosha.png" alt="">
+        </div>
+        <div class="fretureData">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Kal Sarpa Dosha</h3>
+          <p>
+            One make creepeth, man bearing theira firmament won't great heaven
+          </p>
+        </div>
+      </div>
+
+      <div class="fea-box">
+        <div class="fretureData">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Raasi View</h3>
+          <p>
+            One make creepeth, man bearing theira firmament won't great heaven
+          </p>
+        </div>
+        <div class="featureImage">
+          <img src="image/Raasi.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Features section ends from here -->
+
+  <!-- Experts section starts from here -->
+  <section id="experts">
+    <h1>Community Experts</h1>
+    <p>Replenish man have thing gathering lights yielding shall you</p>
+    <div class="expert-box">
+      <div class="profile">
+        <img src="img/pro1.webp" alt="">
+        <h6>Ema Ernik</h6>
+        <p>Python & Algorithms Expert</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="img/pro2.webp" alt="">
+        <h6>Jason chua</h6>
+        <p>Data Design Expert</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="img/pro3.webp" alt="">
+        <h6>Maalik Halper</h6>
+        <p>Full Stack Developer</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="img/pro4.webp" alt="">
+        <h6>Jennifer Lopez</h6>
+        <p>Design Expert</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experts section ends from here -->
+
+  <!-- Footer section starts from here -->
+  <footer>
+
+    <h1>Pandit Omprakash Sharma</h1>
+    <p>Here on this site you can know each and every details and data of and related to indian vedic hindi panchang
+      (panchangam).Our goal is to provide you with Panchang, Havan, Puja, Kundli and other subh work Related Services
+      that demonstrate how much we love our Sanatan Culture and want to Preserve and Promote our culture for the
+      benefits of the human race! Not only do we have the most Multi-Dimentioned, Detailed, Precise and Accurate
+      Panchang Products, but we also ensure that they are of the highest quality.</p>
+
+    <!-- <div class="footer-col">
+      <h3>Here on</h3>
+      <li></li>
+      <li>Power Tools</li>
+      <li>Managed Website</li>
+      <li>Kundli Service</li>
+    </div> -->
+
+    <div class="footer-col">
+      <h3>Useful Links</h3>
+      <li>About Us</li>
+      <li>Contact Us</li>
+      <li>Advertisements</li>
+      <li>Term & Condition</li>
+      <li>Privacy Policy</li>
+    </div>
+
+    <div class="footer-col">
+      <h3>Power Tools</h3>
+      <li>Top Products(Books)</li>
+      <li>Shree Dhari Panchang</li>
+      <li>Read Book</li>
+      <li>Havan and Puja</li>
+      <li>Manage Reputation</li>
+    </div>
+
+    <div class="footer-col">
+      <h3>Guides</h3>
+      <li>Talk to Astrologer</li>
+      <li>Kundli view Online</li>
+      <li>Any Muharat</li>
+      <li>New House Entry</li>
+      <li>Experts Guidance</li>
+      <!-- <li></li> -->
+    </div>
+
+    <div class="copyright">
+      <p>
+        Copyright @ 2023 Online Puja All Rights Reserved | A Consumer Brand of Para Digital Technologies.
+      </p>
+      <!-- <div class="pro-links">
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div> -->
+    </div>
+  </footer>
+  <!-- Footer section ends from here -->
+
+  <script src="toggle.js"></script>
+  <!-- <script src="date.js"></script> -->
+
+</body>
+
+</html>
