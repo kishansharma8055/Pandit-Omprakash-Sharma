@@ -427,7 +427,7 @@ header nav ul li a:hover {
 	}
 
 	header nav .content {
-		/* position: absolute; */
+		position: absolute;
 		top: 0px;
 		right: -200px;
 		display: flex;
