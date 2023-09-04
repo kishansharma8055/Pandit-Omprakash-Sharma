@@ -1,29 +1,19 @@
 /*------------- Footer section styling starts ------------*/
 footer {
     padding: 8vw;
-    background-color: #553030;
+    background-color: #101c32;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+}
 
-
-
-
-    /* background-color: rgb(248, 78, 78); */ 
-     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+footer h2 {
+    color: rgb(160, 160, 43);
 }
 
 footer .footer-col {
     padding-bottom: 40px;
-}
-
-footer h1{
-    color: rgb(93, 219, 213);
 }
 
 footer h3 {
@@ -97,7 +87,7 @@ footer .copyright p>a {
 }
 
 footer .copyright .pro-links {
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 footer .copyright .pro-links i {
