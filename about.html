@@ -7,78 +7,39 @@
     <title>about</title>
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="footer.css">
-    <!-- <script src="index.js"></script> -->
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <!-- *********** navbar start  *********** -->
-    <header>
-        <div>
-            <a href="ALogin.html">
-                <img src="./image/logo.jpg" alt="logo image"></a>
+    <!-- Navigation start -->
+    <nav>
+        <img src="image/logo.jpg" class="logo" alt="">
+
+        <p><strong class="Logo">Ram Ram Sa</strong></p>
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times">X</i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="image/menu.png" id="menu-btn" alt="">
         </div>
-        <nav>
-            <div class="content">
-                <ul>
-                    <i onclick="closeBtn()" id="menu-close" class="fas fa-times">X</i>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="contact.html">contect us</a></li>
-                    <li><a href="login.html" id="login">login</a></li>
-                    <li> <a href="signin.html" id="signin">sign in</a></li>
-                </ul>
-                <div id="profile">
-                    <a href="ALogin.html">
-                        <img src="./image/profile.png" alt="logo image"></a>
-                </div>
-            </div>
-            <button id="menu-btn" onclick="menuBtn()">
-                <div class="container">
-                    <div class="box"></div>
-                    <div class="box" id="box2"></div>
-                    <div class="box" id="box3"></div>
-                </div>
-            </button>
-        </nav>
-        <div class="toggle-btn">
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <label for="checkbox" class="toggle-label">
-                <span class="toggle-ball"></span>
-            </label>
-        </div>
-    </header>
-    <!-- ************ navbar end  *********** -->
+    </nav>
+    <!-- Navigation ends -->
 
 
     <!-- Hero section starts from here -->
     <section id="home">
         <h2>
-            <!-- Enhance Your Future With <br> Sanatan Culture -->
+            About Us
         </h2>
         <!-- <div><span>Time : </span><span id="time"></span> <br> <span>Date : </span><span id="date"></span></div> -->
-        <h2>
-            <!-- Pandit Onprakash Sharam -->
-        </h2>
-        <p>
-            This website is made by kishan Sharma. For Education
-        </p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae incidunt nam inventore, tempora, minima
-            expedita facere consequatur suscipit officiis temporibus, dolor provident? Tenetur tempore dolorem fugiat,
-            praesentium eos accusantium veritatis enim autem explicabo soluta aliquam non quis laudantium quaerat sequi
-            vero molestias, minus illum laborum tempora ullam necessitatibus ipsum velit! In voluptate quia optio
-            tempore numquam laborum quaerat adipisci fugit suscipit qui, provident laudantium doloremque assumenda
-            pariatur ratione iusto et sed nulla amet corrupti eligendi quae fugiat ea nam. Nostrum aperiam possimus
-            quisquam magni explicabo, eligendi doloremque nobis enim iusto veniam voluptatibus iure rerum vel autem
-            optio earum reprehenderit! Laudantium, excepturi. Similique laboriosam earum tempora suscipit alias!
-            Architecto cupiditate dicta molestias illo laboriosam sequi repellat voluptates, ipsam beatae ipsum nostrum
-            porro tempore, doloremque similique incidunt. Ipsam, aperiam dicta rerum soluta nobis nihil cupiditate
-            corrupti asperiores voluptatibus doloremque at voluptate qui voluptatem quos, harum animi hic. Dolores et,
-            nam voluptas molestias, quis ab, quia odit quo hic nihil enim doloribus est. Eum, reiciendis dolor! Odit
-            doloremque dolorum tenetur possimus corporis voluptatibus repellendus quae. Deleniti quasi voluptates
-            officia numquam ea illum odio non praesentium commodi consectetur at ut quidem esse, debitis accusamus
-            cumque adipisci cupiditate dolorem nemo nostrum qui nam. Perferendis, adipisci.</p>
         <div class="btn">
             <a href="panchang.html" class="blue">Today Panchang</a>
             <a href="services.html" class="yellow">Services</a>
@@ -89,7 +50,7 @@
     <!-- Footer section starts from here -->
     <footer>
 
-        <h1>Pandit Omprakash Sharma</h1>
+        <h2>Pandit Omprakash Sharma</h2>
         <p>Here on this site you can know each and every details and data of and related to indian vedic hindi panchang
             (panchangam).Our goal is to provide you with Panchang, Havan, Puja, Kundli and other subh work Related
             Services
@@ -146,8 +107,17 @@
     </footer>
     <!-- Footer section ends from here -->
 
-    <script src="toggle.js"></script>
-    <script src="index.js"></script>
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
 
 </body>
 
