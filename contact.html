@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
+    <title>about</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <h1>contact file</h1>
+    <!-- Navigation start -->
+    <nav>
+        <img src="image/logo.jpg" class="logo" alt="">
+
+        <p><strong class="Logo">Ram Ram Sa</strong></p>
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times">X</i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="image/menu.png" id="menu-btn" alt="">
+        </div>
+    </nav>
+    <!-- Navigation ends -->
+
+
+    <!-- Hero section starts from here -->
+    <section id="home">
+        <h2>
+            Contact Us
+        </h2>
+        <!-- <div><span>Time : </span><span id="time"></span> <br> <span>Date : </span><span id="date"></span></div> -->
+        <div class="btn">
+            <a href="panchang.html" class="blue">Today Panchang</a>
+            <a href="services.html" class="yellow">Services</a>
+        </div>
+    </section>
+    <!-- Hero section ends from here -->
+
+    <!-- Footer section starts from here -->
+    <footer>
+
+        <h2>Pandit Omprakash Sharma</h2>
+        <p>Here on this site you can know each and every details and data of and related to indian vedic hindi panchang
+            (panchangam).Our goal is to provide you with Panchang, Havan, Puja, Kundli and other subh work Related
+            Services
+            that demonstrate how much we love our Sanatan Culture and want to Preserve and Promote our culture for the
+            benefits of the human race! Not only do we have the most Multi-Dimentioned, Detailed, Precise and Accurate
+            Panchang Products, but we also ensure that they are of the highest quality.</p>
+
+        <!-- <div class="footer-col">
+          <h3>Here on</h3>
+          <li></li>
+          <li>Power Tools</li>
+          <li>Managed Website</li>
+          <li>Kundli Service</li>
+        </div> -->
+
+        <div class="footer-col">
+            <h3>Useful Links</h3>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Advertisements</li>
+            <li>Term & Condition</li>
+            <li>Privacy Policy</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Power Tools</h3>
+            <li>Top Products(Books)</li>
+            <li>Shree Dhari Panchang</li>
+            <li>Read Book</li>
+            <li>Havan and Puja</li>
+            <li>Manage Reputation</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Guides</h3>
+            <li>Talk to Astrologer</li>
+            <li>Kundli view Online</li>
+            <li>Any Muharat</li>
+            <li>New House Entry</li>
+            <li>Experts Guidance</li>
+            <!-- <li></li> -->
+        </div>
+
+        <div class="copyright">
+            <p>
+                Copyright @ 2023 Online Puja All Rights Reserved | A Consumer Brand of Para Digital Technologies.
+            </p>
+            <!-- <div class="pro-links">
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div> -->
+        </div>
+    </footer>
+    <!-- Footer section ends from here -->
+
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
 </body>
+
 </html>
