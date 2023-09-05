@@ -168,7 +168,7 @@ nav .navigation ul li a:hover {
 
     nav {
         padding: 15px 20px;
-        position: absolute;
+        /* position: absolute; */
     }
 
     nav img {
@@ -199,7 +199,7 @@ nav .navigation ul li a:hover {
         width: 200px;
         /* height: 100vh; */
         border-radius: 10px;
-        background: rgba(28, 73, 170, 0.397);
+        background: rgba(0, 45, 247, 0.74);
         backdrop-filter: blur(4.5px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         transition: 0.3s ease-in;
