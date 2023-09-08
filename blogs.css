@@ -1,6 +1,7 @@
 /*------------- Hero section styling start --------------*/
 #home {
-    background-image: linear-gradient(rgba(128, 75, 75, 0.3), rgba(105, 60, 60, 0.7)), url("image/img3.jpg");
+    /* background-image: linear-gradient(rgba(128, 75, 75, 0.3), rgba(105, 60, 60, 0.7)), url("image/img3.jpg");*/
+    background-image: linear-gradient(rgba(128, 75, 75, 0.3), rgba(105, 60, 60, 0.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYDbCHtb2wt8k15fFIKeCCMYxY3EOQdlauA&usqp=CAU");
     width: 100%;
     height: 50vh;
     background-size: cover;
